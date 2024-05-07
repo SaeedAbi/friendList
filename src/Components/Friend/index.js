@@ -1,4 +1,5 @@
 import react from "react";
+import Button from "../Button";
 
 const Friend=({friend})=>{
 return <li>
@@ -7,8 +8,9 @@ return <li>
     {friend.balance<0 && <p className="red">You owes {friend.name} {Math.abs(friend.balance)} Euro</p>}
     {friend.balance>0 && <p className="green">{friend.name} owes you {Math.abs(friend.balance)} Euro</p>}
     {friend.balance=== 0 && <p >You and {friend.name} are even </p>}
-    <button className="button">Select</button>
+<Button>Select</Button>
 </li>
+
 }
 
 export default Friend

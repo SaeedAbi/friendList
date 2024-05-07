@@ -1,4 +1,6 @@
 import FriendsList from "./Components/FriendsList";
+import FornAddFriend from "./Components/FornAddFriend";
+import Button from "./Components/Button";
 
 const initialFriends = [
   {
@@ -25,6 +27,8 @@ const App=()=>{
   return <div className="app">
     <div className="sidebar">
     <FriendsList/>
+      <FornAddFriend/>
+      <Button>Add friend</Button>
     </div>
   </div>
 }
