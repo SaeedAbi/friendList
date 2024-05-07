@@ -1,6 +1,7 @@
 import FriendsList from "./Components/FriendsList";
 import FornAddFriend from "./Components/FornAddFriend";
 import Button from "./Components/Button";
+import FormSplitBill from "./Components/FormSplitBill";
 
 const initialFriends = [
   {
@@ -30,6 +31,7 @@ const App=()=>{
       <FornAddFriend/>
       <Button>Add friend</Button>
     </div>
+    <FormSplitBill/>
   </div>
 }
 
