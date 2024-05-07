@@ -23,7 +23,9 @@ const initialFriends = [
 
 const App=()=>{
   return <div className="app">
+    <div className="sidebar">
     <FriendsList/>
+    </div>
   </div>
 }
 
